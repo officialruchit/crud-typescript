@@ -5,7 +5,7 @@ import userrouter from './routes/userRoute'
 import db from './config/db'
 db()
 
-const PORT=process.env.PORT||3332
+const PORT=process.env.PORT||3333
 dotenv.config();
 const app=express();
 app.use(bodyParser.json())
